@@ -1,0 +1,114 @@
+body {
+    background-color: #F0F0F0; /* Cinza Claro */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Altura mínima da viewport */
+}
+header {
+    background-color: #B361F2;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 100px;
+}
+.container {
+    background-color: #B361F2;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 10px;
+    padding: 10px;
+    justify-content: center; /* Centraliza os elementos */
+    align-items: flex-start; /* Alinha os elementos no topo */
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.input-group {
+    flex: 1; 
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    min-width: 200px; 
+    max-width: 300px;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+input, select {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+footer {
+    background-color: #555688;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.adicionar-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #F26161;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.itens-adicionados {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center; /* Centraliza os itens adicionados */
+}
+
+/* Media query para telas menores */
+@media screen and (max-width: 600px) {
+    .input-group {
+        max-width: 100%;
+    }
+}
+
+#despesas {
+    display: flex;
+    background-color: #f3f3f3;
+    border-radius: 8px;
+    padding: 0px 5px;
+    max-height: 300px;
+    flex-direction: column;
+}
+
+#despesas > div {
+    margin: 2px 2px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    border-radius: 10px; 
+    padding: 10px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.subitem {
+    color: #000;
+    padding: 5px;
+    margin: 5px;
+    margin: 0 10px; 
+    width: 90%;
+}
+
+.subitem#action{
+  width: 10%;
+}

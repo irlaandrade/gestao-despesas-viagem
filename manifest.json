@@ -1,0 +1,17 @@
+{
+  "name": "Gestão de Despesas em Viagens",
+  "short_name": "GestaoDespesasViagens",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#000000",
+  "orientation": "portrait",
+  "description": "Gestão para Despesas em Viagens",
+  "icons": [
+    {
+      "src": "image/icons/travel.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}

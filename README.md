@@ -39,7 +39,7 @@ Para instalar o PWA, o ícone de instalação aparecerá automaticamente na barr
 ## 👩‍💻 Hospedagem
 Este projeto está hospedado no Netlify, que é uma plataforma de hospedagem estática poderosa e fácil de usar com suporte para CI/CD, formulários e outras funcionalidades avançadas:
 
-https://trabalho-gestao-despesas-viagens.netlify.app
+https://gestao-despesas-viagem.netlify.app/
 
 
 ### Aluna
